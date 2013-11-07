@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="mandrill_smtp" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Mandrill Smtp</name>
+	<description>Allows you to add Mandrill headers to all smtp emails sent. Important to use mandrill_smtp as your gateway for this to be effective.</description>
+	<repo type="github">https://github.com/jonmifsud/mandrill_smtp</repo>
+	<types>
+		<type>Email</type>
+	</types>
+	<authors>
+		<author>
+			<name github="jonmifsud" symphony="gunglien">Jon Mifsud</name>
+			<website>http://www.jonmifsud.com</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="0.1" date="2011-08-13" min="2.3" />
+	</releases>
+</extension>
